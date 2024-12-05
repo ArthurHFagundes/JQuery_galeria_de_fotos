@@ -19,7 +19,7 @@ $(document).ready(function(){ // ($) PARA CHAMAR O JQUERY
         $(`
             <div class="overlay-img-link"> 
                 <a href="${urlDaNovaImagem}" target="_blank">
-                    Ver a imagem em tamanho real
+                Ver a imagem em tamanho real"``
                 </a>
             </div>
         `).appendTo(novoItem);
@@ -28,3 +28,8 @@ $(document).ready(function(){ // ($) PARA CHAMAR O JQUERY
         $('#url-img-nova').val(''); // LIMPAR 
     })
 })
+
+// $('[type="text"]') selecionará todos os elementos com o atributo type igual a "text".
+// $('div p') selecionará todos os parágrafos que são descendentes de um elemento div.
+// $('.elemento:visible') selecionará todos os elementos com a classe "elemento" que estão visíveis.
+// off() Se  precisar remover um manipulador de evento associado a um elemento
